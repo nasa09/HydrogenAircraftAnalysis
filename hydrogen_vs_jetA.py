@@ -25,6 +25,7 @@ def fuel_mass_and_volume(energy_required, specific_energy, density):
     volume = mass / density
     return mass, volume
 
+#Example snippet from code
 # Fuel calculations
 jetA_mass, jetA_volume = fuel_mass_and_volume(mission_energy, jetA_energy_density, jetA_density)
 H2_mass, H2_volume = fuel_mass_and_volume(mission_energy, H2_energy_density, H2_density_L)
